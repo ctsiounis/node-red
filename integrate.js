@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  **/
-var directory = "C:\\Users\\ktsiouni\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\";
+var directory = "C:\\Users\\Konstantinos\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\";
 var http = require('http');
 var https = require('https');
 var util = require("util");
@@ -25,7 +25,7 @@ catch(e) { bcrypt = require(directory + 'bcryptjs\\dist\\bcrypt.js'); }
 var nopt = require(directory + "nopt\\lib\\nopt.js");
 var path = require("path");
 var fs = require(directory + "fs-extra\\lib\\index.js");
-var RED = require("C:\\Users\\ktsiouni\\AppData\\Roaming\\npm\\node_modules\\node-red\\red\\red.js");
+var RED = require(directory + "..\\red\\red.js");
 
 var server;
 var app = express();

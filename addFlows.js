@@ -1,4 +1,4 @@
-var directory = "C:\\Users\\ktsiouni\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\";
+var directory = "C:\\Users\\Konstantinos\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\";
 var http = require('http');
 var https = require('https');
 var util = require("util");
@@ -18,7 +18,7 @@ const request = require('request');
 module.exports = {
 		add: function() {
 			// Creates the flow from file
-			var extraFlowFile = "C:\\Users\\ktsiouni\\Desktop\\flow.json";
+			var extraFlowFile = "C:\\Users\\Konstantinos\\Desktop\\flow.json";
 			var jsonText = fs.readFileSync(extraFlowFile);
 			var jsonObject = JSON.parse(jsonText);
 			
